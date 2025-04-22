@@ -1,5 +1,5 @@
 .hero-section {
-    background: linear-gradient(135deg, #B2D6E0 0%, #8EC5E3 100%);
+    background: linear-gradient(135deg, #faa1a1 0%, #faf7f7 100%);
     position: relative;
     overflow: hidden;
 }
@@ -62,17 +62,17 @@
 }
 
 .nav-gradient {
-    background: linear-gradient(to right, #1E3A8A, #1E40AF);
+    background: linear-gradient(to right, #800000, #800000);
 }
 
 .button-gradient {
-    background: linear-gradient(135deg, #1E3A8A 0%, #1E40AF 100%);
+    background: linear-gradient(135deg, #800000 0%, #800000 100%);
     transition: all 0.3s ease;
 }
 
 .button-gradient:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(30, 58, 138, 0.3);
+    box-shadow: 0 4px 12px rgba(138, 30, 30, 0.3)
 }
 
 .social-icon {
@@ -81,7 +81,7 @@
 
 .social-icon:hover {
     transform: translateY(-3px) rotate(8deg);
-    color: #1E40AF;
+    color: #800000;
 }
 
 @keyframes float {
